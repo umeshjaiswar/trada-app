@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 10 rem;
+    height: 10 rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E0F12;
+    color: #FFFFFF;
+}
+.outbox{
+    text-align: center;
+    padding: 100px; 
+    position: relative;
+}
+.inbox2{
+    padding-top: 30px;
+}
+.inbox2 form{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.button1,.button2{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 40px;
+    width: 218px;
+    height: 57px;
+    border-radius: 5px;
+    border: #262729;
+    background-color:#262729;
+    color: #FFFFFF;
+    margin: 0 1rem;
+    display: inline-block;
+}
+h1{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 54px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    opacity: 80%;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+/*sign up html css*/
+.inbox2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.textbox1
+{
+    height: 57px;
+    width: 277px;
+    border-radius: 5px;
+    background-color: #262729;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: #929394;
+    border: transparent;
+    font-size: 35px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+.inbox3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #262729;
+    width: 100%;
+    height: 86px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.button3{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 40px;
+    width: 218px;
+    height: 57px;
+    border-radius: 5px;
+    border: #D4D4D4;
+    background-color:#D4D4D4;
+    color: #000000;
+    margin: 0 1rem;
+    display: inline-block;
+}
+.button4{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 40px;
+    width: 218px;
+    height: 57px;
+    border-radius: 5px;
+    border: #515254;
+    background-color:#515254;
+    color: #D4D4D4;
+    margin: 0 1rem;
+    display: inline-block;
+}
+.inbox0{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 10px;
+}
+.inbox0 .circle{
+    background-color: #262729;   
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    color: #FFFFFF;
+}
+.inbox0_h3{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/*details.html css*/
+.inbox_1{
+    
+}
