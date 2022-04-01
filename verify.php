@@ -14,5 +14,4 @@ if($query->num_rows>0){
 }else{
     echo "Invalid User";
 }
-
 ?>
